@@ -1,0 +1,72 @@
+@import '../../styles.scss';
+
+.main {
+    width: 100%;
+    height: 100vh;
+    @include df(center, center);
+
+    .creat {
+        width: 25%;
+        height: 50vh;
+        box-shadow: 2px 2px 7px 5px #999;
+        @include df(center, space-around);
+        flex-direction: column;
+
+        .btn {
+            width: 90%;
+            @include df(center, space-around);
+
+            a {
+                text-decoration: none;
+
+                button {
+                    width: 150px;
+                }
+            }
+        }
+
+        input {
+            width: 85%;
+            height: 40px;
+            padding: 0 20px;
+            font-size: 17px;
+            border-radius: 7px;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom: 2px solid #383838;
+
+            &::placeholder {
+                font-size: 18px;
+                color: #999;
+                letter-spacing: 1px;
+            }
+        }
+
+        .loginin {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: sans-serif;
+
+            h1 {
+                color: #456545;
+                transition: all .5s;
+                letter-spacing: 2px;
+
+                b {
+                    color: #395339;
+                }
+
+                &:hover {
+                    color: #395339;
+
+                    b {
+                        color: #456545;
+                    }
+                }
+            }
+        }
+    }
+}
