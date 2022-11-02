@@ -7,6 +7,7 @@
     .login{
         width: 25%;
         height: 50vh;
+        border-radius: 7px;
         box-shadow: 2px 2px 7px 5px #999;
         .inp{
             width: 100%;
@@ -47,16 +48,16 @@
                 font-family: sans-serif;
                 h1{
                     letter-spacing: 2px;
-                    color: #456545;
+                    color: #1aa8b2;
                     cursor: pointer;
                     transition: all .5s;
                     b{
-                        color: #395339;
+                        color: #1acfdc;
                     }
                     &:hover{
-                        color: #395339;
+                        color: #1acfdc;
                         b{
-                            color: #456545;
+                            color: #1aa8b2;
                         }
                     }
                 }
