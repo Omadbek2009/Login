@@ -16,8 +16,8 @@ function Register() {
                         <Fade left><input type="email" placeholder='Email' /></Fade>
                         <Fade right><input type="password" placeholder='Password' /></Fade>
                         <Stack spacing={2} direction="row">
-                            <Fade left><Link to="login"><Button variant="outlined">Login In</Button></Link></Fade>
-                            <Fade right><Link><Button variant="outlined">Submit</Button></Link></Fade>
+                                <Fade left><Link to="login"><Button variant="outlined">Login In</Button></Link></Fade>
+                                <Fade right><Link><Button variant="outlined">Submit</Button></Link></Fade>
                         </Stack>
                     </div>
                 </div>
